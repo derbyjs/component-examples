@@ -1,0 +1,20 @@
+{
+  "name": "derby-component-examples",
+  "description": "",
+  "version": "0.1.0",
+  "publishConfig": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/derbyjs/component-examples.git"
+  },
+  "dependencies": {
+    "derby": "0.6.x",
+    "derby-starter": "^0.2.0",
+    "derby-stylus": "^0.1.0",
+    "l-progress": "^1.0.0",
+    "l-upload": "^1.0.0"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {}
+}

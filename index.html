@@ -1,0 +1,12 @@
+<Title:>
+  {{$render.ns}} Example
+ 
+<Body:>
+  <view name={{$render.ns}}></view>
+ 
+<home:>
+  <ul class="list">
+    {{each _page.componentNames}}
+      <li><a href="/{{this}}">{{this}}</a></li>
+    {{/each}}
+  </ul>
