@@ -3,6 +3,9 @@
   "description": "",
   "version": "0.1.0",
   "publishConfig": {},
+  "scripts": {
+    "start": "coffee server.coffee"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/derbyjs/component-examples.git"
@@ -13,6 +16,7 @@
     "derby-stylus": "^0.1.0",
     "l-progress": "^1.0.0",
     "l-upload": "^1.0.0",
+    "d-lorem": "*",
     "coffee-script": "^1.7.1"
   },
   "devDependencies": {},

@@ -5,12 +5,13 @@ app.loadStyles __dirname
 
 app.use require 'l-progress/example'
 app.use require 'l-upload/example'
+app.use require 'd-lorem/example'
 # add more components here...
  
 app.get '/', ->
   componentNames = []
   for viewName of app.views.nameMap
-    match = /^(l-.+)-example$/.exec viewName
+    match = /^([ld]-.+)-example$/.exec viewName
     componentNames.push match[1] if match
   componentNames.sort (a,b) ->
     return a.localeCompare(b)
