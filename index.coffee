@@ -5,8 +5,10 @@ app.loadStyles __dirname
 
 app.use require 'l-progress/example'
 app.use require 'l-upload/example'
-app.use require 'd-lorem/example'
 # add more components here...
+app.use require 'd-lorem/example'
+#app.use(require('d-datepicker/example'));
+#app.use(require('d-share/example'));
  
 app.get '/', ->
   componentNames = []
@@ -25,12 +27,4 @@ app.on 'ready', (page) ->
   # For debugging purposes only
   window.MODEL = page.model
   window.APP = app
-
-
-# =========================
-
-# for the l-upload example
-app.post '/upload', ({req, res}) ->
-  # you would need to use connect middleware to parse files 
-  # for this to actually work
-  res.send({response: "uploaded!"})
+  
