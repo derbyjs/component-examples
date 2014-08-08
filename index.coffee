@@ -7,8 +7,8 @@ app.use require 'l-progress/example'
 app.use require 'l-upload/example'
 # add more components here...
 app.use require 'd-lorem/example'
-#app.use(require('d-datepicker/example'));
-#app.use(require('d-share/example'));
+app.use(require('d-datepicker/example'));
+app.use(require('d-share/example'));
  
 app.get '/', ->
   componentNames = []

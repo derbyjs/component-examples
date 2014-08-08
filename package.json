@@ -18,8 +18,8 @@
     "l-upload": "^1.0.0",
     "d-lorem": "*",
     "coffee-script": "^1.7.1",
-    "d-share": "0.0.13",
-    "d-datepicker": "^0.2.11"
+    "d-share": "^0.1.0",
+    "d-datepicker": "^0.3.0"
   },
   "devDependencies": {},
   "optionalDependencies": {}
