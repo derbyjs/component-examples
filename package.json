@@ -20,8 +20,8 @@
     "coffee-script": "^1.7.1",
     "d-share": "^0.1.0",
     "d-datepicker": "^0.3.0",
-    "d-material": "^0.0.9",
-    "d-leaflet": "^0.0.2"
+    "d-material": "^0.0.x",
+    "d-leaflet": "^0.0.x"
   },
   "devDependencies": {},
   "optionalDependencies": {}
