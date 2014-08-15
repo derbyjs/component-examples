@@ -19,7 +19,8 @@
     "d-lorem": "*",
     "coffee-script": "^1.7.1",
     "d-share": "^0.1.0",
-    "d-datepicker": "^0.3.0"
+    "d-datepicker": "^0.3.0",
+    "d-material": "^0.0.8"
   },
   "devDependencies": {},
   "optionalDependencies": {}
