@@ -9,7 +9,7 @@ app.use require 'l-upload/example'
 app.use require 'd-lorem/example'
 app.use(require('d-datepicker/example'));
 app.use(require('d-share/example'));
-app.use(require('d-material/example'));
+app.use(require('d-material'));
 
 app.get '/', ->
   componentNames = []
