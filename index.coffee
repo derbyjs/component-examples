@@ -10,6 +10,7 @@ app.use require 'd-lorem/example'
 app.use(require('d-datepicker/example'));
 app.use(require('d-share/example'));
 app.use(require('d-material'));
+app.use(require('d-leaflet'));
 
 app.get '/', ->
   componentNames = []
